@@ -19,7 +19,10 @@ document.getElementById('number').addEventListener('input', function(){
     }
 })
 
+const boxColor = document.getElementById('boxColor');
 
 document.getElementById('color').addEventListener('input', function(){
     document.body.style.backgroundColor = this.value;
+    boxColor.style.backgroundColor = this.value;
 });
+
