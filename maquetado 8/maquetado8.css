@@ -1,0 +1,33 @@
+  .product-container {
+    background-color: rgb(19, 163, 103);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .product {
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .product img {
+    width: 180px; 
+    height: 250px;
+  }
+
+  .product-title {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+
+  .product-price {
+    font-size: 12px;
+    color: #666;
+  }

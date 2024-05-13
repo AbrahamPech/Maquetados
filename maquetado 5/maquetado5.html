@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Datos Personales Maquetado 5</title>
+    <!--
+        Universidad Tecnologica Metropolitana
+        Desarrollo de sofware multiplataforma
+        Aplicaciones Web
+        Parcial 1
+        Ruth Martinez Gonazalez
+        Alumno: Jorge Abaraham Cruz Pech
+        Cuatrimestre 3 Grupo C
+    -->
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <!-- Apartado de Datos Personales -->
+            <div class="form-group input-row">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Apellido (como se muestra en su pasaporte)">
+            </div>
+            <!-- Apartado de Nombre -->
+            <div class="form-group input-row">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Solo nombre">
+            </div>
+            <!-- Apartado de Fecha de Nacimiento -->
+            <div class="form-group input-row">
+                <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                <input type="number" id="diaNacimiento" placeholder="Día">
+                <input type="text" id="mesNacimiento" placeholder="Mes">
+                <input type="number" id="añoNacimiento" placeholder="Año">
+            </div>
+                <!-- Apartado de Ciudad de Nacimiento -->
+            <div class="form-group input-row">
+                <label for="ciudadNacimiento">Ciudad de nacimiento</label>
+                <input type="text" id="ciudadNacimiento" placeholder="Ciudad de nacimiento">
+            </div>
+            <!-- Apartado de País de Nacimiento -->
+            <div class="form-group input-row">
+                <label for="paisNacimiento">País de nacimiento</label>
+                <input type="text" id="paisNacimiento" placeholder="País de nacimiento">
+            </div>
+            <!-- Apartado de Nacionalidad -->
+            <div class="form-group input-row">
+                <label for="nacionalidad">Nacionalidad</label>
+                <input type="text" id="nacionalidad" placeholder="Nacionalidad">
+            </div>
+            <!-- Apartado de Número de Pasaporte -->
+            <div class="form-group input-row">
+                <label for="numeroPasaporte">Número de pasaporte</label>
+                <input type="text" id="numeroPasaporte" placeholder="Número de pasaporte">
+            </div>
+            <!-- Apartado de País de Emisión del Pasaporte -->
+            <div class="form-group input-row">
+                <label for="paisEmision">País donde ha sido emitido su pasaporte</label>
+                <input type="text" id="paisEmision" placeholder="País de emisión">
+            </div>
+            <!-- Apartado de Fecha de Emisión del Pasaporte -->
+            <div class="form-group input-row">
+                <label for="fechaEmision">Fecha de emisión del pasaporte</label>
+                <input type="number" id="diaEmision" placeholder="Día">
+                <input type="text" id="mesEmision" placeholder="Mes">
+                <input type="number" id="añoEmision" placeholder="Año">
+            </div>
+            <!-- Apartado de Fecha de Vencimiento del Pasaporte -->
+            <div class="form-group input-row">
+                <label for="fechaVencimiento">Fecha de vencimiento de su pasaporte</label>
+                <input type="number" id="diaVencimiento" placeholder="Día">
+                <input type="text" id="mesVencimiento" placeholder="Mes">
+                <input type="number" id="añoVencimiento" placeholder="Año">
+            </div>
+        </form>
+    </div>
+    <script src="maquetado5.js"></script>
+    <link rel="stylesheet" href="maquetado5.css">
+    <!--
+        Datos personales
+        .form-group.input-row>label[for=apellido]{Apellido}+input#apellido[type=text][placeholder="Apellido (como se muestra en su pasaporte)"]
+        Nombre
+        .form-group.input-row>label[for=nombre]{Nombre}+input#nombre[type=text][placeholder="Solo nombre"]
+        Apartado de fecha de nacimeinto
+        .form-group.input-row>label[for=fechaNacimiento]{Fecha de nacimiento:}+input#diaNacimiento[type=number][placeholder=Día]+input#mesNacimiento[type=text][placeholder=Mes]+input#añoNacimiento[type=number][placeholder=Año]
+        Apartado de lugar de nacimiento
+        .form-group.input-row>label[for=ciudadNacimiento]{Ciudad de nacimiento}+input#ciudadNacimiento[type=text][placeholder="Ciudad de nacimiento"]
+        .form-group.input-row>label[for=paisNacimiento]{País de nacimiento}+input#paisNacimiento[type=text][placeholder="País de nacimiento"]
+        Apartado de nacionalidad
+        .form-group.input-row>label[for=nacionalidad]{Nacionalidad}+input#nacionalidad[type=text][placeholder=Nacionalidad]
+        Apartado de pasaporte
+        .form-group.input-row>label[for=nacionalidad]{Nacionalidad}+input#nacionalidad[type=text][placeholder=Nacionalidad]
+        .form-group.input-row>label[for=paisEmision]{País donde ha sido emitido su pasaporte}+input#paisEmision[type=text][placeholder="País de emisión"]
+        Apartado de emeision del pasaporte
+        .form-group.input-row>label[for=paisEmision]{País donde ha sido emitido su pasaporte}+input#paisEmision[type=text][placeholder="País de emisión"]
+        .form-group.input-row>label[for=fechaEmision]{Fecha de emisión del pasaporte}+input#diaEmision[type=number][placeholder=Día]+input#mesEmision[type=text][placeholder=Mes]+input#añoEmision[type=number][placeholder=Año]
+        Apartado de vencimiento del pasaporte
+        .form-group.input-row>label[for=fechaVencimiento]{Fecha de vencimiento de su pasaporte}+input#diaVencimiento[type=number][placeholder=Día]+input#mesVencimiento[type=text][placeholder=Mes]+input#añoVencimiento[type=number][placeholder=Año]
+
+    -->
+</body>
+
+</html>

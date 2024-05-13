@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro a evento DEMO - Maquetado 4</title>
+    <!--
+        Universidad Tecnologica Metropolitana
+        Desarrollo de sofware multiplataforma
+        Aplicaciones Web
+        Parcial 1
+        Ruth Martinez Gonazalez
+        Alumno: Jorge Abaraham Cruz Pech
+        Cuatrimestre 3 Grupo C
+    -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Registro a evento DEMO</h1>
+            <p>Llene los siguientes datos para registrarse al evento.</p>
+        </div>
+        <div class="form-section">
+            <form action="/submit-registration" method="POST">
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="address">Dirección:</label>
+                <input type="text" id="address" name="address" placeholder="Ingrese la dirección" oninput="updateMap(this.value)">
+                
+                <div class="map">
+                    <iframe id="mapFrame" loading="lazy" src="https://maps.google.com/maps?q=700+South+Florida+Avenue,Tampa,FL+33602&output=embed"></iframe>
+                </div>
+
+                <label for="name">Nombre completo:</label>
+                <div class="name-surname-flex">
+                    <input type="text" id="name" name="name" required placeholder="Nombre" class="name-input">
+                    <input type="text" id="surname" name="surname" required placeholder="Apellido" class="surname-input">
+                </div>
+
+                <input id="register" type="submit" value="Registrarse" onclick="reloadPage()">
+            </form>
+        </div>
+    </div>
+    <script src="maquetado4.js"></script>
+    <link rel="stylesheet" href="maquetado4.css">
+</body>
+
+</html>

@@ -1,69 +1,74 @@
-header{
+header {
     width: 750px;
     height: 250px;
     display: flex;
-    background-color: black;
+    background-color: blue;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    border: 10px solid black;
 }
 
-.banner{
-    background-color: white;
-    width: 650px;
+header .banner {
+    width: 480px;
     height: 240px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0px 0px 5px;
 }
 
-.logo{
-    background-color: white;
-    width: 90px;
+header .logo {
+    width: 250px;
     height: 240px;
-    margin-left: 10px;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 5px 0px 0px;
 }
 
-nav{
-    width: 770px;
+nav {
+    width: 758px;
     height: 50px;
     background-color: green;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
 }
 
-main{
+main {
     width: 750px;
     height: 400px;
+    background-color: rgb(211, 129, 157);
     display: flex;
-    flex-direction: arow;
-    background-color: black;
-    padding: 10px;
+    border: 10px solid black;
 }
 
-article{
-    width: 450px;
+article {
+    width: 470px;
     height: 390px;
     background-color: white;
-    margin: auto;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-aside{
+aside {
     width: 280px;
     height: 390px;
     background-color: white;
-    margin: auto;
+    margin: 5px 5px 0px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer{
-    width: 770px;
+footer {
+    width: 750px;
     height: 50px;
     background-color: orange;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
 }
